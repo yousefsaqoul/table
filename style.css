@@ -1,0 +1,15 @@
+ section p {
+    width: 400px;
+    background-color: rgb(236, 120, 11);
+    padding: 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 7px;
+    margin: 30px auto ;
+}
+section {
+    border-style: solid;
+    border-color: black;
+    margin: 0 80px;
+
+}
