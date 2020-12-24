@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1542031047-e24bc306da70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section h1{
+    background-color: rgba(39, 37, 37, 0.6);
+    margin: 0 auto;
+    height: 1rem;
+    color: #fff;
+    padding: 1rem; auto;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+article {
+    text-align: center;
+    font-family: helvetica;
+    background-color:rgba(192, 192, 192, 0.3);
+    margin: 1em auto;
+    height: 22em;
+    padding: 2em;
+}
+article p {
+    font-size: 0.9em;   
+}
+h2 {
+    font-size: 1.2em;  
+}
+article h2:nth-of-type(1) {
+    margin: 1.5em;
+}
+
