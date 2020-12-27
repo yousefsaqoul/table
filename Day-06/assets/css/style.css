@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section {
+    background-color: #333;
+    height: 670px; 
+    margin-top: 0;  
+}
+
+section div {
+    background-image: linear-gradient(to left bottom, #3dc8d5, #8507e1);
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+section div:hover {
+    background-image: linear-gradient(to left bottom, #8507e1, #3dc8d5 );
+}
+nav {
+    margin-top: 175px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 50px;
+    direction: rtl;
+}
+ul li {
+    line-height: 2em;
+    letter-spacing: 1px;
+
+}
+
+section div p:nth-of-type(1) {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 75px;
+    font-family: 'Gilda Display'; 
+    color: #fff;
+    text-align: center;
+}
+section  p:nth-of-type(2) {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: 'Maven Pro';
+    text-align: center;
+    font-size: 18px;
+}
+.logo{
+    padding-top: 10px;
+    margin: 0px;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 5px;
+}
+li {
+    list-style: none;
+    line-height: 25px;
+}
+a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+a:hover{
+    color:  #ccc;
+}
+
+.myHeader{
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 85%;
+
+    
+}
+content h1{
+    margin-top: 1px;
+    font-size: 110px;
+    color: rgb(3, 1, 1);
+    text-align: left;
+    margin-left: 70px;
+}
+content h3 {
+    font-family: 'Maven Pro';
+    color: rgb(3, 3, 3);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+    word-spacing: 5px;
+    line-height: 1.5em;
+}
+content h3:nth-last-of-type(4){
+    line-height: 5em;
+    margin-bottom: 300px;
+
+}
+
+
+.paragraph {
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.MiniParagraph{
+    margin-left: 120px;
+    margin-bottom: 300px;
+
+}
+.MyAlbum {
+    margin-left:120px;
+    width: 85%;
+    border-radius: 10px;
+
+}
+
+
+
+/* font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
